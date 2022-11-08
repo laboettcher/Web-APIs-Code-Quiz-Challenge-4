@@ -88,3 +88,5 @@ https://www.w3schools.com/js/js_if_else.asp
 https://www.w3schools.com/js/js_functions.asp
 
 https://www.w3schools.com/js/js_loop_for.asp
+
+https://www.w3schools.com/cssref/pr_background-image.php#:~:text=By%20default%2C%20a%20background%2Dimage,repeated%20both%20vertically%20and%20horizontally.
