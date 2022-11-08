@@ -45,7 +45,7 @@ THEN I can save my initials and score
 
 ## Links
 
-Github repo:
+Github repo: https://github.com/laboettcher/Web-APIs-Code-Quiz-Challenge-4 
 
 Deployed application:
 
