@@ -1,0 +1,126 @@
+
+* {
+    font-family: 'Impact', 'Marker Felt','Jazz LET', 'Blippo','Luminari', 'fantasy';
+    color: #c0c0c0;
+}
+
+body {
+    /* Background image (adaptability below) */
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* High Scores Button */
+#view-scores {
+    color: #ba55db;
+}
+
+#view-scores:hover {
+    color: #663396;
+}
+
+/* Timer */
+#timer {
+    color: #ba55db;
+}
+
+/* Start button */
+#start {
+    box-shadow: none;
+    outline: none;
+    background-color: #ba55db;
+}
+
+#start:hover {
+    box-shadow: none;
+    outline: none;
+    background-color: #663396;
+}
+
+/* These sections are hidden before the click events */
+#questions,
+#final,
+#highscores,
+#yaynay {
+    display: none;  
+  } 
+
+/* Remove bullet points in the answers lists*/
+ul.nobullets {
+list-style-type: none;
+}
+
+/* Answer buttons */
+.ansBtn,
+.ansBtn:hover,
+.ansBtn:active,
+.ansBtn:focus,
+.ansBtn:active:focus {
+    box-shadow: none;
+    outline: none;
+    background-color: #ba55db;
+}
+
+/* Submit button */
+#submit-score {
+    box-shadow: none;
+    outline: none;
+    color: white;
+    background-color: #ba55db;
+}
+
+#sumbit-score:hover {
+    color: white;
+    background-color: #663396;
+}
+
+/* Go back button */
+#goback {
+    box-shadow: none;
+    outline: none;
+    color: white;
+    background-color: #ba55db;
+}
+
+#goback:hover {
+    color: white;
+    background-color: #663396;
+}
+
+/* Clear scores button */
+#clearscores {
+    box-shadow: none;
+    outline: none;
+    color: white;
+    background-color: #ba55db;
+}
+
+#clearscores:hover {
+    color: white;
+    background-color: #663396;
+}
+
+/* Background image adaptability for different screen sizes: */
+
+/* Mobile */
+@media (max-width: 480px) {
+    body {
+        background-image: url(../assets/images/background.jpg);
+    }
+}
+
+/* Tablet */
+@media (min-width: 481px) and (max-width: 1024px) {
+    body {
+        background-image: url(../assets/images/background.jpg);
+    }
+}
+
+/* Desktop */
+@media (min-width: 1025px) {
+    body {
+	    background-image: url(../assets/images/background.jpg);
+   }
+}
